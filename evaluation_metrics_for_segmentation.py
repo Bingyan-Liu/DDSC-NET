@@ -4,7 +4,7 @@ import numpy as np
 from scipy import misc
 from os import path, makedirs
 
-from util.file_management import get_filenames, save_csv_mean_segmentation_performance, save_csv_segmentation_table
+from utils.file_management import get_filenames, save_csv_mean_segmentation_performance, save_csv_segmentation_table
 
 EPS = 1e-7
 def dice_coefficient_1(binary_segmentation, binary_gt_label,binary_segmentation_not,binary_gt_label_not):
